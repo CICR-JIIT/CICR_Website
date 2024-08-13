@@ -38,10 +38,10 @@ To kick off the website development, we will be using the following technologies
    To start the local development server and begin working on the website:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-   This will run the React application in development mode. Open `http://localhost:3000` in your browser to view it.
+   This will run the React application in development mode. Open `http://localhost:5173/` in your browser to view it.
 
 ## Contribution Guidelines
 

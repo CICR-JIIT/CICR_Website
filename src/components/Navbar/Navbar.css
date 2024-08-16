@@ -1,1 +1,65 @@
 /* This is the Navbar CSS file */
+/* this is just a sample Navbar made */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101720;
+    width: 100%;
+}
+.h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    width: 100%;
+}
+
+
+.logo{
+    color: #fff;
+    text-decoration: none;
+    height: 100px;
+}
+/*
+.logo-a :hover{
+    background-color: aquamarine; 
+    color:antiquewhite; 
+}
+*/
+
+.linkItem{
+    text-decoration: none;
+    color: #fff;
+    gap: 4px;
+    padding: 4px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    font-size:19px;
+}
+ .links :hover{
+    transform:translateY(-10px);
+    transition: all 0.3s ease-in;
+    color:antiquewhite;
+ }
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        background-color: #101720;
+        width: 100%;
+        justify-content: center;
+        height: 80px;
+    }
+}

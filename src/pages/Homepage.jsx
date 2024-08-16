@@ -3,9 +3,11 @@ import Navbar from '../components/Navbar/Navbar';
 export const Homepage = () => {
     return (
         <>
-            <Navbar />
+             {/* Navbar /  ,, issue with styling of navbar  */}
             <div>
-                <p> this is ("/") route,this is where homepage(landing page) will be coded</p>
+                <Navbar />
+                <h4>⬆️ is a sample navbar to navigate to contact-us route</h4>
+                <p style={{ padding: '10px' }}> this is ("/") route,this is where homepage(landing page) will be coded</p>
             </div>
         </>
     )
